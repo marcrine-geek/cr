@@ -13,6 +13,8 @@ image:
   repository: 813389018368.dkr.ecr.eu-west-1.amazonaws.com/clientregistry
   tag: latest
   pullPolicy: Always
+imagePullSecrets:
+  - name: cr-registry-key
 
 nginx:
   replicaCount: 1
