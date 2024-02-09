@@ -10,9 +10,9 @@ dbRootPassword: password
 dbRootUser: root
 
 image:
-  repository: frappe/erpnext
-  tag: v15.12.2
-  pullPolicy: IfNotPresent
+  repository: 813389018368.dkr.ecr.eu-west-1.amazonaws.com/clientregistry
+  tag: latest
+  pullPolicy: Always
 
 nginx:
   replicaCount: 1
